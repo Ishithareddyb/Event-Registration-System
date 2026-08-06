@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Event Registration — Pro</title>
+    <!-- Tailwind Play CDN for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- SweetAlert2 for modals/toasts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      /* Pastel Blue theme tweaks */
+      :root{
+        --primary: #cfe8ff;
+        --accent: #7fb3ff;
+        --muted: #6b7280;
+      }
+      body { background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%); }
+      .card { background: white; border-radius: 12px; box-shadow: 0 6px 18px rgba(31,45,61,0.06); }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- React bundle will mount here -->
+  </body>
+</html>
