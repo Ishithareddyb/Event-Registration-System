@@ -1,0 +1,7 @@
+com\example\event\model\Event.class
+com\example\event\controller\ParticipantController.class
+com\example\event\model\Participant.class
+com\example\event\controller\EventController.class
+com\example\event\repository\EventRepository.class
+com\example\event\EventRegistrationApplication.class
+com\example\event\repository\ParticipantRepository.class

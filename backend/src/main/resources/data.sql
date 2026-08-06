@@ -1,0 +1,2 @@
+INSERT INTO EVENT (id, title, description, start_time, end_time, capacity) VALUES (1, 'Campus Hackathon', '24-hour coding sprint', '2025-11-01T09:00', '2025-11-02T09:00', 100);
+INSERT INTO EVENT (id, title, description, start_time, end_time, capacity) VALUES (2, 'Tech Talk: AI Ethics', 'A talk on AI and society', '2025-11-10T14:00', '2025-11-10T16:00', 200);
